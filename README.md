@@ -22,3 +22,18 @@ Upgraded the architecture by introducing artificial intelligence and data manipu
 * **Concepts Learned:** Deepened my understanding of JSON keys/values and how cross-application API requests communicate across the internet.
 <img width="1873" height="960" alt="image" src="https://github.com/user-attachments/assets/9810c310-2831-4df6-8436-474a87a20b46" />
 
+
+
+
+# n8n Essentials: Your First Workflows 🏆
+
+Got the course certificate locked in. Tracking my progress and workflow setups here.
+
+## What I configured to make it work:
+* **TriggerManual & SubmitRegistration:** Connected a manual trigger to an HTTP Request node to pass data end-to-end.
+* **Header Auth:** Created custom credentials using the exact `X-API-Key` token layout to bypass the academy server security.
+* **Query Parameters:** Fixed the data strings (`assessment_id`, `workflow_name`, `tag`) to match the strict grading criteria exactly.
+
+> **Status:** Passed and certified. 🎓
+<img width="1121" height="798" alt="image" src="https://github.com/user-attachments/assets/b4ccc1df-187e-414e-8989-fef215f6fa91" />
+
