@@ -49,4 +49,4 @@ Designed and built a production PostgreSQL schema for a multi-tenant SaaS auctio
 - **Concepts Learned:** Multi-tenant SaaS architecture, Postgres enums for data integrity, junction tables for many-to-many relationships, the tradeoffs between array columns vs. separate relational tables for one-to-many data (photos).
 - **Debugging:** Cross-checked schema design against a second AI's proposal (Gemini) to validate structural decisions before committing — caught an improvement (separate `item_images` table vs. array column) this way.
 
-*Full project repo: *
+*Full project repo: https://github.com/FUNKYFROG25/pawnshop-auction-manager*
