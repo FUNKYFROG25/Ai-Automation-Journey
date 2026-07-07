@@ -37,3 +37,16 @@ Got the course certificate locked in. Tracking my progress and workflow setups h
 > **Status:** Passed and certified. 🎓
 <img width="1121" height="798" alt="image" src="https://github.com/user-attachments/assets/b4ccc1df-187e-414e-8989-fef215f6fa91" />
 
+
+
+
+### Multi-Tenant Database Architecture (Pawn Shop Client Project)
+
+Designed and built a production PostgreSQL schema for a multi-tenant SaaS auction management app — first real paying client project.
+
+- **Tech Stack:** Supabase (PostgreSQL), Lovable, n8n, Railway, Resend
+- **What I Did:** Designed a 7-table relational schema (shops, items, item_images, auctions, auction_items, bids, sales_history) with shop-level data isolation baked in from day one, so the same system can serve multiple pawn shops later without restructuring.
+- **Concepts Learned:** Multi-tenant SaaS architecture, Postgres enums for data integrity, junction tables for many-to-many relationships, the tradeoffs between array columns vs. separate relational tables for one-to-many data (photos).
+- **Debugging:** Cross-checked schema design against a second AI's proposal (Gemini) to validate structural decisions before committing — caught an improvement (separate `item_images` table vs. array column) this way.
+
+*Full project repo: *
